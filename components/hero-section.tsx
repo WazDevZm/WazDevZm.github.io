@@ -7,13 +7,12 @@ export function HeroSection() {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <h1 className="text-[42px] leading-[50px] md:text-[72px] font-bold md:leading-[85px]">
-            I'm <span className="bg-[#FF6B7A] text-white px-3 py-1 inline-block">John Carter</span>, a Web Designer from{" "}
-            <span className="bg-[#2F81F7] text-white px-3 py-1 inline-block">New York</span>
+            I'm <span className="bg-[#FF6B7A] text-white px-3 py-1 inline-block">Wazingwa</span>,a Software Engineer from{" "}
+            <span className="bg-[#2F81F7] text-white px-3 py-1 inline-block">Zambia</span>
           </h1>
 
           <p className="text-[#393939] text-[16px] md:text-[18px] font-medium leading-[28px] md:leading-[30px] max-w-xl">
-            Lacus, adipiscing lectus convallis purus aliquet cursus magnaol montes augue donec cras turpis ultrices
-            nulla sed doler.
+            I am currently pursuing a Bachelor's Degree in Computer Engineering from the Copperbelt University. With a strong foundation in software development and a passion for creating innovative solutions, I am eager to contribute my skills and knowledge to the tech industry.
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-7 pt-4">
