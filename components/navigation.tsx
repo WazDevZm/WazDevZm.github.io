@@ -23,9 +23,6 @@ export function Navigation() {
             Pages
             <ChevronDown className="w-4 h-4" />
           </button>
-          <a href="#cart" className="text-[18px] font-bold leading-[20px] hover:opacity-70 transition-opacity">
-            Cart(0)
-          </a>
         </div>
 
         <Button className="bg-black text-white hover:bg-black/90 rounded-sm px-5 h-12 min-w-[48px] flex-shrink-0">
