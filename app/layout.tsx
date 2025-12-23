@@ -19,9 +19,14 @@ const onest = Onest({
 })
 
 export const metadata: Metadata = {
-  title: "Paperfolio - Portfolio Landing Page",
-  description: "A playful portfolio landing page",
+  title: "Wazingwa Mugala",
+  description: "Software Engineer from Zambia - Portfolio & Projects",
   generator: "v0.app",
+  icons: {
+    icon: "/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png",
+    shortcut: "/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png",
+    apple: "/images/design-mode/63407fbdc2d4ac5270385fd4_home-he.png",
+  },
 }
 
 export default function RootLayout({

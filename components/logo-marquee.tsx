@@ -1,11 +1,11 @@
 export function LogoMarquee() {
   const items = [
-    { logo: "/logos/application.svg", alt: "application" },
-    { logo: "/logos/business.svg", alt: "business" },
-    { logo: "/logos/company.svg", alt: "company" },
-    { logo: "/logos/startup.svg", alt: "startup" },
-    { logo: "/logos/venture.svg", alt: "venture" },
-    { logo: "/logos/agency.svg", alt: "agency" },
+    { logo: "/logos/images.jpg", alt: "company 1" },
+    { logo: "/logos/images.png", alt: "company 2" },
+    { logo: "/logos/images (1).png", alt: "company 3" },
+    { logo: "/logos/images.jpg", alt: "company 4" },
+    { logo: "/logos/images.png", alt: "company 5" },
+    { logo: "/logos/images (1).png", alt: "company 6" },
   ]
 
   return (

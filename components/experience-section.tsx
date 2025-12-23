@@ -5,37 +5,37 @@ import Image from "next/image"
 export function ExperienceSection() {
   const experiences = [
     {
-      period: "Jan 2023 - Present",
-      title: "Mobile Product Designer",
+      period: "Sep 2025 - Present",
+      title: "Software Engineer Intern at Polaris Cloud AI",
       description:
-        "Vel facilisis volutpat est velit egestas dui. Urna nec cidu praesent semper feugiat. Vulputate ut pharetra sit.",
-      icon: "/images/agency.png",
-    },
-    {
-      period: "Jan 2021 - Dec 2022",
-      title: "VP of Design",
-      description:
-        "Vel facilisis volutpat est velit egestas dui. Urna nec cidu praesent semper feugiat. Vulputate ut pharetra sit.",
+        "Designed and implemented an MVP Africa-first search (AfriSearch) platform with a React/Tailwind frontend for local business and service discovery. Working on Polaris Smart Compute Aggregator | GPU Marketplace Platform.",
       icon: "/images/company.png",
     },
     {
-      period: "Mar 2020 - Dec 2020",
-      title: "Head of Product Design",
+      period: "Mar 2025 - Sep 2025",
+      title: "Junior Software Engineer at Cracked Lemonade Stand",
       description:
-        "Vel facilisis volutpat est velit egestas dui. Urna nec cidu praesent semper feugiat. Vulputate ut pharetra sit.",
+        "Working on a cool MVP in New York, United States. Developing innovative software solutions and contributing to product development.",
+      icon: "/images/startup.png",
+    },
+    {
+      period: "Sep 2024 - Dec 2024",
+      title: "Software Developer Intern at Code Savanna",
+      description:
+        "Gained hands-on experience in software development, working on various projects and learning industry best practices.",
       icon: "/images/busines.png",
     },
     {
-      period: "Sep 2017 - Feb 2020",
-      title: "Web Designer",
+      period: "Mar 2024 - Nov 2024",
+      title: "Creative Director at Plastal-Bot Builders",
       description:
-        "Vel facilisis volutpat est velit egestas dui. Urna nec cidu praesent semper feugiat. Vulputate ut pharetra sit.",
-      icon: "/images/startup.png",
+        "Led creative direction for robotics projects in Kitwe, Zambia. Participated in Program in Algorithmic and Combinatorial Thinking (PACT) in Philadelphia. Also worked as SAT Math Tutor, teaching math concepts and helping with revision.",
+      icon: "/images/agency.png",
     },
   ]
 
   return (
-    <section className="bg-black py-16 md:py-24">
+    <section id="experience" className="bg-black py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-start">
           <div className="text-white pt-0 md:pt-12 md:sticky md:top-12 self-start">

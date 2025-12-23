@@ -17,19 +17,19 @@ export function PortfolioSection() {
       description:
         "In ultricies viverra sed at hendrerit drogon nunc scelerisque nisl pellentesque et dignissim at aenean tempor adipiscing eget mi diam at tempus.",
       tag: "UI/UX Design",
-      logo: "/images/venture-logo.svg",
+      logo: "/logos/venture.png",
       bgColor: "bg-[#2F81F7]",
       illustration: "/images/venture-workspace.svg",
     },
   ]
 
   return (
-    <section className="container mx-auto px-4 py-16 md:py-24">
+    <section id="portfolio" className="container mx-auto px-4 py-16 md:py-24">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
             Take a look at my <br />
-            <span className="bg-[#FFC224] text-black px-3 py-1 inline-block">design portfolio</span>
+            <span className="bg-[#FFC224] text-black px-3 py-1 inline-block">Projects</span>
           </h2>
         </div>
 
