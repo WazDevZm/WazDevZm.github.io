@@ -18,8 +18,7 @@ export function AboutSection() {
               Who's behind all this <span className="bg-[#2F81F7] text-white px-3 py-1 inline-block">great work?</span>
             </h2>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-              Eu pellentesque arcu ornare velit faucibus egestas gravida sed in purus enim molestie gravida imperdiet
-              integer.
+              I'm a passionate software engineer from Zambia with expertise in full-stack development, AI integration, and mobile applications. I love creating innovative solutions that make a real impact in people's lives.
             </p>
           </div>
 

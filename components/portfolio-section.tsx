@@ -4,22 +4,54 @@ import Image from "next/image"
 export function PortfolioSection() {
   const projects = [
     {
-      title: "Studio user research and analysis",
+      title: "Agrimate - Smart Agriculture Platform",
       description:
-        "In ultricies viverra sed at hendrerit drogon nunc scelerisque nisl pellentesque et dignissim at aenean tempor adipiscing eget mi diam at tempus.",
-      tag: "UI/UX Design",
-      logo: "/images/studio-logo.svg",
+        "A comprehensive agricultural management platform that helps farmers optimize crop production, monitor weather conditions, and manage resources efficiently using modern web technologies.",
+      tag: "Full Stack Development",
+      logo: "/projects/project1_logo.png",
       bgColor: "bg-[#6366F1]",
-      illustration: "/images/studio-workspace.svg",
+      illustration: "/projects/project1.png",
+      link: "https://agrimatezm.vercel.app/"
     },
     {
-      title: "Venture Workspace web app redesign",
+      title: "AspiraRemove - Background Removal Tool",
       description:
-        "In ultricies viverra sed at hendrerit drogon nunc scelerisque nisl pellentesque et dignissim at aenean tempor adipiscing eget mi diam at tempus.",
-      tag: "UI/UX Design",
-      logo: "/logos/venture.png",
+        "An AI-powered background removal application that allows users to easily remove backgrounds from images with precision and speed, perfect for e-commerce and content creation.",
+      tag: "AI/ML Application",
+      logo: "https://via.placeholder.com/120x40/FF6B7A/FFFFFF?text=AspiraRemove",
+      bgColor: "bg-[#FF6B7A]",
+      illustration: "/projects/project2.png",
+      link: "#"
+    },
+    {
+      title: "TaskFlow - Project Management System",
+      description:
+        "A modern project management platform with real-time collaboration, task tracking, and team communication features built with React and Node.js.",
+      tag: "Web Application",
+      logo: "https://via.placeholder.com/120x40/2F81F7/FFFFFF?text=TaskFlow",
       bgColor: "bg-[#2F81F7]",
-      illustration: "/images/venture-workspace.svg",
+      illustration: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=400&fit=crop&crop=center",
+      link: "#"
+    },
+    {
+      title: "EcoTracker - Carbon Footprint Monitor",
+      description:
+        "A sustainability app that helps users track their carbon footprint, set environmental goals, and discover eco-friendly alternatives in their daily lives.",
+      tag: "Mobile App",
+      logo: "https://via.placeholder.com/120x40/10B981/FFFFFF?text=EcoTracker",
+      bgColor: "bg-[#10B981]",
+      illustration: "/projects/project2.png",
+      link: "#"
+    },
+    {
+      title: "CryptoWallet - Digital Asset Manager",
+      description:
+        "A secure cryptocurrency wallet application with portfolio tracking, real-time price alerts, and multi-currency support for managing digital assets.",
+      tag: "Blockchain",
+      logo: "https://via.placeholder.com/120x40/F59E0B/FFFFFF?text=CryptoWallet",
+      bgColor: "bg-[#F59E0B]",
+      illustration: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=500&h=400&fit=crop&crop=center",
+      link: "#"
     },
   ]
 
@@ -40,16 +72,6 @@ export function PortfolioSection() {
               className="group grid md:grid-cols-2 bg-white border-[3px] border-black rounded-[32px] overflow-hidden hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] transition-all"
             >
               <div className="p-6 md:p-12 flex flex-col justify-center bg-white">
-                <div className="flex items-center gap-3 mb-6">
-                  <Image
-                    src={project.logo || "/placeholder.svg"}
-                    alt={`${project.title} logo`}
-                    width={120}
-                    height={32}
-                    className="h-6 md:h-8 w-auto"
-                  />
-                </div>
-
                 <span className="inline-block bg-black text-white text-xs font-semibold px-4 py-1.5 rounded-full mb-6 w-fit">
                   {project.tag}
                 </span>
@@ -63,10 +85,12 @@ export function PortfolioSection() {
                 </p>
 
                 <a
-                  href="#"
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-2 font-semibold text-[#0B0B0B] hover:gap-3 transition-all text-sm md:text-base"
                 >
-                  View case study
+                  View project
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </div>
@@ -81,20 +105,6 @@ export function PortfolioSection() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="flex justify-center">
-          <button className="bg-black text-white px-6 md:px-8 py-4 md:py-5 rounded-[12px] font-semibold hover:bg-gray-900 transition-colors flex items-center justify-center gap-2 w-full sm:w-auto text-sm md:text-base">
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-              />
-            </svg>
-            Browse all portfolio
-          </button>
         </div>
       </div>
     </section>

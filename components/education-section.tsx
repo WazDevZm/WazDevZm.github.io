@@ -10,6 +10,7 @@ export function EducationSection() {
       description: "Comprehensive study in computer engineering fundamentals, software development, and system design.",
       logo: "/images/company.png",
       bgColor: "bg-[#6366F1]",
+      image: "/CopperbeltUniversity.png",
     },
     {
       period: "January 2020 - November 2022",
@@ -18,6 +19,7 @@ export function EducationSection() {
       description: "Focused on Science, Technology, Engineering, and Mathematics with strong foundation in analytical thinking.",
       logo: "/images/startup.png",
       bgColor: "bg-[#2F81F7]",
+      image: "/Hillrcrest.png",
     },
   ]
 
@@ -59,10 +61,16 @@ export function EducationSection() {
                 </p>
               </div>
 
-              <div className={`${edu.bgColor} relative overflow-hidden min-h-[250px] md:min-h-[400px] flex items-center justify-center`}>
-                <div className="text-center text-white p-8">
-                  <GraduationCap className="w-24 h-24 md:w-32 md:h-32 mx-auto mb-4 opacity-80" />
-                  <div className="text-2xl md:text-3xl font-bold opacity-90">Education</div>
+              <div className="relative min-h-[250px] md:min-h-[400px] bg-white flex items-center justify-center p-8">
+                <div className="relative w-full h-full max-w-[300px] max-h-[200px]">
+                  <Image
+                    src={edu.image}
+                    alt={edu.institution}
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 768px) 300px, 300px"
+                    priority={index === 0}
+                  />
                 </div>
               </div>
             </div>
