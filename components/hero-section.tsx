@@ -1,4 +1,4 @@
-import { Mail, FolderOpen } from "lucide-react"
+import { Mail, FolderOpen, Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function HeroSection() {
@@ -16,10 +16,26 @@ export function HeroSection() {
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap gap-4 sm:gap-7 pt-4">
-            <Button className="bg-[#0B0B0B] text-white hover:bg-black/90 rounded-lg py-5 px-8 md:py-[22px] md:px-[62px] text-base md:text-lg font-semibold h-auto w-full sm:w-auto sm:min-w-[240px]">
-              <Mail className="w-5 h-5" />
-              Get in touch
-            </Button>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://github.com/WazDevZm"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-14 h-14 bg-[#0B0B0B] text-white hover:bg-black/90 rounded-lg transition-colors"
+                aria-label="GitHub Profile"
+              >
+                <Github className="w-6 h-6" />
+              </a>
+              <a
+                href="https://linkedin.com/in/wazingwa-mugala"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-14 h-14 bg-[#0077B5] text-white hover:bg-[#005885] rounded-lg transition-colors"
+                aria-label="LinkedIn Profile"
+              >
+                <Linkedin className="w-6 h-6" />
+              </a>
+            </div>
             <a
               href="/resume.pdf"
               target="_blank"

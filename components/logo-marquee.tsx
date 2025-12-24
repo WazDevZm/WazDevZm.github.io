@@ -1,11 +1,15 @@
 export function LogoMarquee() {
   const items = [
-    { logo: "/logos/images.jpg", alt: "company 1" },
-    { logo: "/logos/images.png", alt: "company 2" },
-    { logo: "/logos/images (1).png", alt: "company 3" },
-    { logo: "/logos/images.jpg", alt: "company 4" },
-    { logo: "/logos/images.png", alt: "company 5" },
-    { logo: "/logos/images (1).png", alt: "company 6" },
+    { logo: "/logos/12.png", alt: "Company Logo" },
+    { logo: "/logos/aspira-high-resolution-logo-transparent (2).png", alt: "Aspira" },
+    { logo: "/logos/ChatGPT_Image_Nov_16__2025__02_51_19_AM-removebg-preview (1).png", alt: "AI Project" },
+    { logo: "/logos/go-ye-therefore-high-resolution-logo-black-transparent.png", alt: "Go Ye Therefore" },
+    { logo: "/logos/grindcastzm-high-resolution-logo-transparent - Copy[1].png", alt: "GrindCast ZM" },
+    { logo: "/logos/images (1).png", alt: "Company 1" },
+    { logo: "/logos/images.jpg", alt: "Company 2" },
+    { logo: "/logos/images.png", alt: "Company 3" },
+    { logo: "/logos/matrix-designs-high-resolution-logo-black-transparent.png", alt: "Matrix Designs" },
+    { logo: "/logos/medipredict-high-resolution-logo-black-transparent.png", alt: "MediPredict" },
   ]
 
   return (
