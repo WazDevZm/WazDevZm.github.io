@@ -48,7 +48,9 @@ npx serve .
 
 ## Deployment
 
-Deployed via **GitHub Pages** directly from the `master` branch. Every push to `master` automatically updates the live site.
+Deployed via **Vercel**. Every push to `master` automatically triggers a new deployment.
+
+The `vercel.json` config tells Vercel to serve the project as a static site.
 
 ## Author
 
